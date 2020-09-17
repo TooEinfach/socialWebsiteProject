@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from . import stuff
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -139,8 +140,8 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '1021982588250255' # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '403547f2ed40da37f7cc19ea48fb9e05' # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = stuff.apple # Facebook App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = stuff.book # Facebook App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
 SOCIAL_AUTH_TWITTER_KEY = 't5REnL9vykYF0ABJ1IskrM2uj' # Twitter API Key
