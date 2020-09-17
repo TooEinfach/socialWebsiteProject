@@ -144,8 +144,8 @@ SOCIAL_AUTH_FACEBOOK_KEY = stuff.apple # Facebook App ID
 SOCIAL_AUTH_FACEBOOK_SECRET = stuff.book # Facebook App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
-SOCIAL_AUTH_TWITTER_KEY = 't5REnL9vykYF0ABJ1IskrM2uj' # Twitter API Key
-SOCIAL_AUTH_TWITTER_SECRET = 'rgIXjQBDVSiZpdclYxNH5myjw1z12782Dqo7T2pOtyavJptEB2' # Twitter API Secret
+SOCIAL_AUTH_TWITTER_KEY = stuff.car # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = stuff.pen # Twitter API Secret
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '666473336514-85dh68bo5houla8m2tvhf7cennplrqs9.apps.googleusercontent.com' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'E0QJ7Bpe7bYDDIwAQ-vvSTVk' # Googole Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = stuff.bat # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = stuff.mouse # Googole Consumer Secret
